@@ -132,5 +132,8 @@
       }
     }
   },
-  "defaultProject": "mission-planning-dashboard"
+  "defaultProject": "mission-planning-dashboard",
+  "cli": {
+    "analytics": false
+  }
 }
