@@ -5,6 +5,7 @@ import { CrewComponent } from './crew.component';
 describe('CrewComponent', () => {
   let component: CrewComponent;
   let fixture: ComponentFixture<CrewComponent>;
+  memberBeingEdited: Object = null;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({

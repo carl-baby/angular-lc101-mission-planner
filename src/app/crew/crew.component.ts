@@ -2,12 +2,11 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-crew',
-  memberBeingEdited: object = null,
   templateUrl: './crew.component.html',
   styleUrls: ['./crew.component.css']
 })
 export class CrewComponent implements OnInit {
-
+  memberBeingEdited: object = null;
   crew: object[] = [
     {name: "Eileen Collins", firstMission: false},
     {name: "Mae Jemison", firstMission: false},
